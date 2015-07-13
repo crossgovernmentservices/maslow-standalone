@@ -1,7 +1,7 @@
 ruby '2.1.5'
 source 'https://rubygems.org'
 
-gem 'rails', '~> 4.2.0'
+gem 'rails', '~> 4.2.3'
 
 gem 'pg'
 
@@ -13,7 +13,6 @@ gem 'link_header', '0.0.8'
 
 group :development, :test do
   gem 'jasmine', '2.1.0'
-  gem 'web-console', '~> 2.0'
   gem 'capybara'
   gem 'database_cleaner', require: false
   gem 'factory_girl_rails'
